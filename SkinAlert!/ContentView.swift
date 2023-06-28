@@ -7,8 +7,21 @@
 
 import SwiftUI
 
+
+
+
+
 struct ContentView: View {
+    
+    
+    
+
+    
+    
   var body: some View {
+      
+      
+     
     NavigationStack {
       ZStack {
         Color("pastelPink")
@@ -27,9 +40,11 @@ struct ContentView: View {
                     .foregroundColor(Color("white"))
                     
             }
+            
 
             }
           }
+        
         }
       }
     }
