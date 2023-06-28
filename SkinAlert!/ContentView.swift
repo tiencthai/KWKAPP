@@ -23,6 +23,7 @@ struct ContentView: View {
                 .frame(height: 15)
             NavigationLink(destination: mainpage()) {
                 Text("[START]")
+                    .foregroundColor(Color("white"))
             }
 
             }
