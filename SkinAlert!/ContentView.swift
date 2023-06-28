@@ -18,12 +18,14 @@ struct ContentView: View {
                 .font(.custom(
                     "Times New Roman", size: 40))
                 .foregroundColor(Color("white"))
+                
             // hello
             Spacer()
                 .frame(height: 15)
             NavigationLink(destination: mainpage()) {
                 Text("[START]")
                     .foregroundColor(Color("white"))
+                    
             }
 
             }
